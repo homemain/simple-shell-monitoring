@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Source configuration file
-. ./config.sh
+. "$(dirname "$0")/config.sh"
 
 # Ensure monitoring directory exists
 mkdir -p "$MONITORING_DIR"
